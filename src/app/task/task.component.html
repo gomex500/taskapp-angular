@@ -1,0 +1,22 @@
+<h2>Lista de Tareas</h2>
+
+<div class="container">
+    <div class="cont-tabla table-responsive">
+        <table class="table table-bordered">
+            <thead class="table-head">
+                <tr>
+                    <th>N#</th>
+                    <th>Title</th>
+                    <th>description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let task of tasks">
+                    <td>{{task.id}}</td>
+                    <td>{{task.title}}</td>
+                    <td>{{task.description}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

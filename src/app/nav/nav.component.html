@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-lg nav1">
+    <div class="container-fluid">
+
+        <a class= " navbar-brand" href="/" >
+          <h3>TaskApp</h3>
+        </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-border-width"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" routerLink="/"><i class="bi bi-list-task"></i> Task</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/new"><i class="bi bi-folder-plus"></i> new</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/about"><i class="bi bi-exclamation-circle-fill"></i> about</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <router-outlet></router-outlet>
